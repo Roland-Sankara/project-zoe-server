@@ -1,0 +1,29 @@
+# Creating a Church
+POST http://localhost:4002/api/tenants
+Content-Type: application/json
+
+{
+    "churchName": "Demo3", 
+    "name": "Demo3"
+}
+
+###
+
+# Create a new user
+POST http://localhost:4002/api/register
+Content-Type: application/json
+
+{
+    "ageGroup": "6-9",
+    "churchName": "Demo3",
+    "civilStatus": "Single",
+    "dateOfBirth": "1800-06-12T00:00:00.000Z",
+    "email": "q6@email.com",
+    "firstName": "me",
+    "gender": "Male",
+    "inCell": "No",
+    "joinCell": "No",
+    "lastName": "test",
+    "phone": "33",
+    "placeOfWork": "vv"
+}
