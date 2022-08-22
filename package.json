@@ -5,8 +5,7 @@
   "author": "Kanzu Code Foundation",
   "license": "MIT",
   "engines": {
-    "npm": "7.5.2",
-    "node": "12.22.5"
+    "npm": "6.14.5"
   },
   "scripts": {
     "heroku-postbuild": "npm run build",
